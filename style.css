@@ -1,0 +1,140 @@
+html {
+    height:  100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: bisque;
+}
+
+header, footer, nav, section {
+    padding-left: 7px;
+    border: 7px solid;
+    border-color:chocolate;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    grid-gap: 8px;
+}
+
+nav a {
+    color:black;
+    font-size: 16px;
+    
+}
+
+a:hover{
+    color: chocolate;
+}
+
+footer {
+    margin-bottom: 7px;    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card p.discript {
+    text-align: left;
+}
+
+.card img {
+    width: 60%;
+    border: 7px solid;
+    border-color: chocolate;
+}
+
+.buy {
+    font-size:x-large;
+    margin: 10px;
+    background-color:darksalmon;
+    border: 0px;
+}
+
+
+.buy a {
+    text-decoration: none;
+    color:black;
+}
+
+button:hover {
+    background: chocolate;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.item {
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+.item img {
+    width: 45%;
+    border: 7px solid;
+    border-color: chocolate;
+}
+
+.line {
+    border: 3px solid;
+    border-color: chocolate;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.form {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.form label {
+
+    font-size: large;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 97%;
+    margin: 15px;
+    text-align: center;
+}
+
+table, td, th {
+    border: 3px solid;
+    border-color:chocolate;
+    border-collapse: collapse;
+}
+
+table img {
+    height: 100px;
+    width: 100px;
+}
+
+table .buy {
+    font-size: medium;
+}
